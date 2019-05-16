@@ -1,0 +1,26 @@
+﻿<OrderAcknowledgement xmlns="http://OrderAcknowledgement.Schemas.Internal.OrderAck">
+  <PurchaseOrderHeader>
+    <BuyerAccountNo>15309</BuyerAccountNo>
+    <OrderNo>002290</OrderNo>
+    <SellersOrderReference>1440578</SellersOrderReference>
+    <CurrencyCode>EUR</CurrencyCode>
+    <ConfirmedOrderDate>2015-03-24</ConfirmedOrderDate>
+    <DateOfConfirmation>2017-06-10</DateOfConfirmation>
+    <SenderId />
+  </PurchaseOrderHeader>
+  <PurchaseOrderLines>
+    <PurchaseOrderLine>
+      <LineNo>1</LineNo>
+      <SellersLineReference>000</SellersLineReference>
+      <Item type="BuyersItemReference">
+        <ItemCode>2714085</ItemCode>
+        <ItemDescription></ItemDescription>
+      </Item>
+      <ProductName>2714085</ProductName>
+      <Price currency="EUR">1803.86</Price>
+      <PriceUnit>05</PriceUnit>
+      <OrderedQty uom="kg">1000</OrderedQty>
+      <ConfirmedDeliveryDate>2015-03-24</ConfirmedDeliveryDate>
+    </PurchaseOrderLine>
+  </PurchaseOrderLines>
+</OrderAcknowledgement>

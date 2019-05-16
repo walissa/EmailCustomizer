@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BizTalkComponents.PipelineComponents.EmailCustomizer</id>
+    <version>1.0.0</version>
+    <title>Email Customizer</title>
+    <authors>Wael Alissa</authors>
+    <owners>Wael Alissa</owners>
+    <projectUrl>https://github.com/walissa/EmailCustomizer</projectUrl>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>BizTalk</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This component enables you to attach you message parts to an e-mail and allows you to send HTML-formatted e-mail with the ability to apply XSLT on your body message.</description>
+  </metadata>
+  <files>
+    <file src="bin\release\BizTalkComponents.PipelineComponents.EmailCustomizer.dll" target="lib\net45"/>
+  </files>
+</package>
